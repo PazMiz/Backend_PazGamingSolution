@@ -1,9 +1,21 @@
+# Paz Gaming Solutions Backend
 
-### Notes:
-1. **Requirements File:** The `requirements.txt` file should list all Python libraries that your project depends on. You can create this file by running `pip freeze > requirements.txt` if you have already installed some packages in your environment.
-2. **Version Control:** It is a good practice to include instructions for cloning the project if it's hosted in a repository.
-3. **Additional Documentation:** Depending on the complexity of the project, you might also want to include documentation links or instructions on how to access generated docs, such as Sphinx for Python codebases.
+## Description
+This backend serves as the data handling layer for Paz Gaming Solutions, a platform designed to enhance the gaming experience by connecting gamers and providing tools for better interaction and gaming strategy planning.
 
-This template should give you a good start for documenting your Django backend project in a way that is accessible and clear to new contributors or other developers.
+## Getting Started
 
-Copyrights by Paz Mizrahi.
+### Prerequisites
+Ensure you have Python and pip installed on your system. This project was built using Python 3.x.
+
+### Setting Up a Virtual Environment
+
+Create a virtual environment to manage dependencies separately from other Python projects by running:
+
+```bash
+python -m venv env
+python3 manage.py makemigrations - Migration after update
+python manage.py migrate - Migrate
+python manage.py runserver - run django server
+source env/bin/activate - active env to be able to install requirments.
+pip install -r requirements.txt - install requirments.
